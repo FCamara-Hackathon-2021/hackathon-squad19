@@ -1,4 +1,4 @@
-# hackathon-squad19
+# Squad 19 - Hackathon FCamara 2021
 
 ## Back-end da Aplicação
 
