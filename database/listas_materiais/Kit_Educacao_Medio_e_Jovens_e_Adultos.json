@@ -1,0 +1,45 @@
+{
+	"Material": "Apontador",
+	"Quantidade": "1"
+
+},
+{
+	"Material": "Borracha",
+	"Quantidade":"2"
+},
+{
+	"Material": "Caderno universitário mínimo 160 Folhas",
+	"Quantidade":"3"
+},
+{
+	"Material": "Caderno desenho 96 Folhas",
+	"Quantidade":"1"
+},
+{
+	"Material": "Caneta esferográfica azul",
+	"Quantidade":"2"
+},
+{
+	"Material": "Caneta esferográfica preta",
+	"Quantidade":"2"
+},
+{
+	"Material": "Caneta esferográfica vermelha",
+	"Quantidade":"1"
+},
+{
+	"Material": "Lápis grafite",
+	"Quantidade":"3"
+},
+{
+	"Material": "Régua",
+	"Quantidade":"1"
+},
+{
+	"Material": "Tesoura",
+	"Quantidade":"1"
+},
+{
+	"Material": "Lápis de cor (12 cores)",
+	"Quantidade":"1"
+}
