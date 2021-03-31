@@ -1,10 +1,15 @@
 {
-	"cidade": "Guarulhos",
+	"escola": "Ary Jorge Zeitune",
 	"bairro": "Bonsucesso",
-	"escola": "Ary Jorge Zeitune"
+	"cidade": "Guarulhos"
 },
 {
-	"cidade": "Vitória da Conquista",
+	"escola": "Colégio Juvêncio",
 	"bairro": "Candeias",
-	"escola": "Colégio Juvêncio"
+	"cidade": "Vitória da Conquista"
+},
+{
+	"escola": "ITB Brasílio Flores de Azevedo",
+	"bairro": "Jd. Belval",
+	"cidade": "Barueri"
 }

@@ -1,3 +1,4 @@
-cidade;bairro;escola
-Guarulhos;Bonsucesso; Ary Jorge Zeitune
-Vitória da Conquista;Candeias;Colégio Juvêncio
+escola;bairro;cidade
+Ary JorgeZeitune;Bonsucesso;Guarulhos 
+Colégio Juvêncio;Candeias;Vitória da Conquista
+ITB Brasílio Flores de Azevedo;Jd. Belval;Barueri
