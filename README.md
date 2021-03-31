@@ -2,7 +2,7 @@
 
 ## O que é esse Hackathon?
 
-O Hackathon do Programa de Formação é a fase onde os participantes colocarão em prática toda a teoria que vem aprendendo. Iremos te dar um desafio, e seu objetivo será transformá-lo em uma solução. Ao final do Hackathon, os participantes sairão com um case/portfólio para poder divulgar, e de quebra, um emprego! =P
+O Hackathon do Programa de Formação da FCamara é a fase onde os participantes colocarão em prática toda a teoria que vem aprendendo. Iremos te dar um desafio, e seu objetivo será transformá-lo em uma solução. Ao final do Hackathon, os participantes sairão com um case/portfólio para poder divulgar, e de quebra, um emprego! =P
 
 ## Squads
 
