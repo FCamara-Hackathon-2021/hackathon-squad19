@@ -1,0 +1,32 @@
+@font-face {
+    font-family: CircularStd-Bold;
+    src: url(CircularStd-Bold.ttf);
+}
+
+body,
+html {
+    background-color: var(--roxo);
+    font-family: 'CircularStd-Bold';
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link{
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: #fff;    
+}
+
+#header .nav-link:hover{
+     border-bottom: solid 4px var(--amarelo);
+     color: var(--amarelo);
+}
