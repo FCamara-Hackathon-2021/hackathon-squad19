@@ -1,15 +1,17 @@
-{
-	"escola": "Ary Jorge Zeitune",
-	"bairro": "Bonsucesso",
-	"cidade": "Guarulhos"
-},
-{
-	"escola": "Escola Municipal José Mozarte Tanajura",
-	"bairro": "Boa Vista",
-	"cidade": "Vitória da Conquista"
-},
-{
-	"escola": "ITB Brasílio Flores de Azevedo",
-	"bairro": "Jd. Belval",
-	"cidade": "Barueri"
-}
+[
+  {
+  	"escola": "Ary Jorge Zeitune",
+  	"bairro": "Bonsucesso",
+  	"cidade": "Guarulhos"
+  },
+  {
+  	"escola": "Escola Municipal José Mozarte Tanajura",
+  	"bairro": "Boa Vista",
+  	"cidade": "Vitória da Conquista"
+  },
+  {
+  	"escola": "ITB Brasílio Flores de Azevedo",
+  	"bairro": "Jd. Belval",
+  	"cidade": "Barueri"
+  }
+]

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: CircularStd-Bold;
+    src: url(CircularStd-Bold.ttf);
+}
+
+body, 
+html {
+    font-family: 'CircularStd-Bold';
+    background-color: rgb(103,121,227);
+    background: linear-gradient(90deg, rgba(103,121,227,1) 0%, rgba(118,75,162,1) 100%);
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link{
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: #fff;    
+}
+
+#header .nav-link:hover{
+     border-bottom: solid 4px var(--amarelo);
+     color: var(--amarelo);
+}

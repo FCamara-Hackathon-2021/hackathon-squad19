@@ -1,44 +1,46 @@
-{
-	"Material": "Apontador",
-	"Quantidade": "1"
-},
-{
-	"Material": "Borracha",
-	"Quantidade": "1"
-},
-{
-	"Material": "Caderno desenho 96 Folhas",
-	"Quantidade": "2"
-}
-{
-	"Material": "Caneta hidrográfica (12 cores)",
-	"Quantidade": "1"
-},
-{
-	"Material": "Cola branca",
-	"Quantidade": "2"
-},
-{
-	"Material": "Giz de cera grosso Educação Infantil (12 cores)",
-	"Quantidade": "1"
-},
-{
-	"Material": "Lápis de cor (12 cores)",
-	"Quantidade": "2"
-},
-{
-	"Material": "Lápis grafite",
-	"Quantidade": "2"
-}
-{
-	"Material": "Massa para modelar (06 cores)",
-	"Quantidade": "3"
-},
-{
-	"Material": "Tesoura",
-	"Quantidade": "1"
-},
-{
-	"Material": "Tinta guache (06 cores)",
-	"Quantidade": "1"
-}
+[
+	{
+		"Material": "Apontador",
+		"Quantidade": "1"
+	},
+	{
+		"Material": "Borracha",
+		"Quantidade": "1"
+	},
+	{
+		"Material": "Caderno desenho 96 Folhas",
+		"Quantidade": "2"
+	}
+	{
+		"Material": "Caneta hidrográfica (12 cores)",
+		"Quantidade": "1"
+	},
+	{
+		"Material": "Cola branca",
+		"Quantidade": "2"
+	},
+	{
+		"Material": "Giz de cera grosso Educação Infantil (12 cores)",
+		"Quantidade": "1"
+	},
+	{
+		"Material": "Lápis de cor (12 cores)",
+		"Quantidade": "2"
+	},
+	{
+		"Material": "Lápis grafite",
+		"Quantidade": "2"
+	}
+	{
+		"Material": "Massa para modelar (06 cores)",
+		"Quantidade": "3"
+	},
+	{
+		"Material": "Tesoura",
+		"Quantidade": "1"
+	},
+	{
+		"Material": "Tinta guache (06 cores)",
+		"Quantidade": "1"
+	}
+]

@@ -1,53 +1,55 @@
-{
-	"Material": "Agenda Ensino Fundamental",
-	"Quantidade": "1"
+[
+	{
+		"Material": "Agenda Ensino Fundamental",
+		"Quantidade": "1"
 
-},
-{
-	"Material": "Apontador",
-	"Quantidade":"1"
-},
-{
-	"Material": "Borracha",
-	"Quantidade":"2"
-},
-{
-	"Material": "Caderno brochurão 80 Folhas",
-	"Quantidade":"4"
-},
-{
-	"Material": "Caneta hidrográfica (12 cores)",
-	"Quantidade":"2"
-},
-{
-	"Material": "Cola branca",
-	"Quantidade":"2"
-},
-{
-	"Material": "Giz de cera Ensino Fundamental (12 cores)",
-	"Quantidade":"1"
-},
-{
-	"Material": "Lápis grafite",
-	"Quantidade":"5"
-},
-{
-	"Material": "Régua",
-	"Quantidade":"1"
-},
-{
-	"Material": "Tesoura",
-	"Quantidade":"1"
-},
-{
-	"Material": "Estojo escolar",
-	"Quantidade":"1"
-},
-{
-	"Material": "Caderno desenho 96 Folhas",
-	"Quantidade":"1"
-},
-{
-	"Material": "Lápis de cor (12 cores)",
-	"Quantidade":"1"
-}
+	},
+	{
+		"Material": "Apontador",
+		"Quantidade":"1"
+	},
+	{
+		"Material": "Borracha",
+		"Quantidade":"2"
+	},
+	{
+		"Material": "Caderno brochurão 80 Folhas",
+		"Quantidade":"4"
+	},
+	{
+		"Material": "Caneta hidrográfica (12 cores)",
+		"Quantidade":"2"
+	},
+	{
+		"Material": "Cola branca",
+		"Quantidade":"2"
+	},
+	{
+		"Material": "Giz de cera Ensino Fundamental (12 cores)",
+		"Quantidade":"1"
+	},
+	{
+		"Material": "Lápis grafite",
+		"Quantidade":"5"
+	},
+	{
+		"Material": "Régua",
+		"Quantidade":"1"
+	},
+	{
+		"Material": "Tesoura",
+		"Quantidade":"1"
+	},
+	{
+		"Material": "Estojo escolar",
+		"Quantidade":"1"
+	},
+	{
+		"Material": "Caderno desenho 96 Folhas",
+		"Quantidade":"1"
+	},
+	{
+		"Material": "Lápis de cor (12 cores)",
+		"Quantidade":"1"
+	}
+]
