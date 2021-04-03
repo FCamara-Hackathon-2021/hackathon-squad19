@@ -9,6 +9,9 @@ html {
     background-color: rgb(103,121,227);
     background: linear-gradient(90deg, rgba(103,121,227,1) 0%, rgba(118,75,162,1) 100%);
 }
+#opts{
+    margin-top: 60px;
+}
 
 #header {
     width: 100%;
