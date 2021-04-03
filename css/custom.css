@@ -15,10 +15,8 @@ html {
 #opts2{
     margin-top: 60px;
 }
-.footer{
-position:absolute;
-    margin: bottom -10px;
-    width:100%;
+#verified{
+    margin-top: 50px;
 }
 #goback{
     margin-top: 60px;
@@ -48,9 +46,15 @@ position:absolute;
     display: flex;
     flex-wrap: wrap;
 }
+#buttomsize{
+    width: 200px;
+}
+#spaceverified{
+    margin-top: 50px;
+}
 
 #spacebtn{
-    margin-right: 15px;
+    margin-right: 100px;
 }
 img.formataimg{
     height: 20px;
