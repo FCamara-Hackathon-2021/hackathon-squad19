@@ -15,7 +15,14 @@ html {
 #opts2{
     margin-top: 60px;
 }
-
+.footer{
+position:absolute;
+    margin: bottom -10px;
+    width:100%;
+}
+#goback{
+    margin-top: 60px;
+}
 #header {
     width: 100%;
     background-color: transparent;
