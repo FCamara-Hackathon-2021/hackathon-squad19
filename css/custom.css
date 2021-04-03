@@ -18,8 +18,14 @@ html {
 #verified{
     margin-top: 50px;
 }
+#box{
+    margin-top: 10px;
+}
 #goback{
     margin-top: 60px;
+}
+#spacebox{
+    margin-top: 25px;
 }
 #header {
     width: 100%;
@@ -54,6 +60,9 @@ html {
 }
 
 #spacebtn{
+    margin-right: 15px;
+}
+#spacebtn2{
     margin-right: 100px;
 }
 img.formataimg{
