@@ -14,10 +14,23 @@
         }
     </script>
 
-    <!--CSS-->
-    <link rel="stylesheet" href="css/main.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/bootstrap-select.min.css"/>
+   
+    <!-- Bootstrap JavaScript and Ajax JQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/bootstrap-select.min.js"></script>
 
-    <title>Projeto FCamara - Squad 19</title>
+    <!-- //biblioteca alternativa à bootstrap-select -->
+    <!--
+    <link rel="stylesheet" href="css/select2.min.css"/>     
+    <script src="js/select2.min.js"></script>
+    -->
+    
+    <title>Hackathon FCamara 2021 - Squad 19</title>
 </head>
 
 <body>
@@ -78,37 +91,11 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center" id="opts">
-                <div class="btn-group">
-                    <button class="btn btn-secondary btn-lg dropdown-toggle " type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Produtos
-                    </button>
-                    <ul class="dropdown-menu checkbox-menu allow-focus">
-                        <li>
-                            <label>
-                                <input type="checkbox"> 2 Tesouras
-                            </label>
-                            <label>
-                                <input type="checkbox"> 1 caderno de 100 folhas
-                            </label>
-                            <label>
-                                <input type="checkbox">3 tubos de cola em bastão
-                            </label>
-                            <label>
-                                <input type="checkbox">2 caixas de lápis de cor
-                            </label>
-                            <label>
-                                <input type="checkbox">5 cartolinas brancas
-                            </label>
-                            <label>
-                                <input type="checkbox">3 canetas na cor azul
-                            </label>
-                            <label>
-                                <input type="checkbox">5 borrachas apaga fácil
-                            </label>
-                        </li>
-                    </ul>
-                </div>                
+                <div class="multi_select_box" id="buttons">
+                    <select name="produtos" class="multi_select w-100" id="Produtos" 
+                    multiple data-selected-text-format="count > 3" data-live-search=true>
+                    </select>
+                </div>              
             </div>
             <div class="d-flex justify-content-center" id="spaceverified">
                 <div id="buttons">
@@ -129,8 +116,7 @@
         </div>
     </div>
 
-
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/selecao-material.js"></script>
 
 </body>
 
