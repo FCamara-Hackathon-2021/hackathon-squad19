@@ -14,8 +14,13 @@
         }
     </script>
 
-    <!--CSS-->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Bootstrap JavaScript and Ajax JQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
 
     <title>Projeto FCamara - Squad 19</title>
 </head>
@@ -70,63 +75,15 @@
 
                     <br /><br />
                     <div id="buttons">
-                        <div class="dropdown" id="spacebtn">
-                            <button class="btn btn-outline-primary dropdown-toggle" type="button"
-                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Cidades
-                            </button>
-                            <ul class="dropdown-menu checkbox-menu allow-focus">
-                                <li>
-                                    <label>
-                                        <input type="checkbox"> Guarulhos
-                                    </label>
-                                    <label>
-                                        <input type="checkbox"> Vitória da conquista
-                                    </label>
-                                    <label>
-                                        <input type="checkbox"> Barueri
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="dropdown" id="spacebtn">
-                            <button class="btn btn-outline-primary dropdown-toggle" type="button"
-                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Bairros
-                            </button>
-                            <ul class="dropdown-menu checkbox-menu allow-focus">
-                                <li>
-                                    <label>
-                                        <input type="checkbox"> Bonsucesso
-                                    </label>
-                                    <label>
-                                        <input type="checkbox"> Boa Vista
-                                    </label>
-                                    <label>
-                                        <input type="checkbox"> Jd. Belval
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="dropdown">
-                            <button class="btn btn-outline-primary dropdown-toggle" type="button"
-                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Escolas
-                            </button>
-                            <ul class="dropdown-menu checkbox-menu allow-focus">
-                                <li>
-                                    <label>
-                                        <input type="checkbox"> Ary JorgeZeitune
-                                    </label>
-                                    <label>
-                                        <input type="checkbox"> Escola Municipal José Mozarte Tanajura 
-                                    </label>
-                                    <label>
-                                        <input type="checkbox"> ITB Brasílio Flores de Azevedo
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
+                        <select name="cidade" class="form-select" id="Cidades" style="width:130px; margin-right:15px;">
+                            <option value="">Cidades</option>
+                        </select>
+                        <select name="bairro" class="form-select" id="Bairros" style="width:130px; margin-right:15px;">
+                            <option value="">Bairros</option>
+                        </select>
+                        <select name="escola" class="form-select" id="Escolas" style="width:130px; margin-right:15px;">
+                            <option value="">Escolas</option>
+                        </select>
                     </div>
                     <br />
                     <div id="buttons">
@@ -152,8 +109,8 @@
             </div>
         </div>
     </div>
-    <script src="js/bootstrap.bundle.min.js"></script>
-
+    
+    <script src="js/escolas.js"></script>
 </body>
 
 </html>
