@@ -101,3 +101,17 @@ img.formataimg{
 .checkbox-menu li.active label:focus {
     background-color: #b8b8ff;
 }
+
+.multi_select_box {
+    width: 200px;
+}
+
+.multi_select_box select{
+    width: 100%;
+}
+
+.multi_select_box button {
+    background-color : #f9f265 !important;
+    color: #6624b6 !important;
+    padding: 15px 25px;
+}
