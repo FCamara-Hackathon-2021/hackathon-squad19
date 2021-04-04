@@ -87,12 +87,12 @@
                     <br />
                     <div id="buttons">
                         <div id="spacebtn">
-                            <a href="pag2.html">
-                                <button type="button" class="btn btn-primary">
+                            <!--<a href="pag2.html">-->
+                                <button type="button" class="btn btn-primary" onclick="validar()">
                                     <img src="imgs/caderno.png" class="formataimg">
                                     Preciso de um kit
                                 </button>
-                            </a>
+                            <!--</a>-->
                         </div>
                         <a href="#">
                             <button type="button" class="btn btn-outline-primary" onclick="update()" style="color: white">
@@ -110,14 +110,19 @@
     </div>
     
     <script src="js/selecao-escolas.js"></script>
+    
     <script>
         function validar(){
             var Escolas = document.getElementById("Escolas");
-            if (Escolas.value == "") {
-            alert("Escola não selecionada");
-            Escolas.focus();
-            return;
-          }
+            console.log(Escolas);
+            if (Escolas.value == "Escolas") {
+                alert("Escola não selecionada");
+                Escolas.focus();
+                return;
+            }
+            else {
+                <a href="pag2.html"></a>
+            }
         }
     </script>
 </body>

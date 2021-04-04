@@ -10,7 +10,6 @@ $(document).ready(function () {
             $.each(data, function (key, value) {
                 if (id == 'Cidades' && local_id == null) {
                     html_code += '<option value="' + value.cidade + '">' + value.cidade + '</option>';
-                    console.log(value.escola);
                 }
                 else if (value.cidade == local_id) {
                     html_code += '<option value="' + value.bairro + '">' + value.bairro + '</option>';
@@ -39,7 +38,7 @@ $(document).ready(function () {
 
     $(document).on('change', '#Bairros', function () {
         var bairro_id = $(this).val();
-
+        
         if (bairro_id != null) {
             load_json_data('Escolas', bairro_id);
         }
