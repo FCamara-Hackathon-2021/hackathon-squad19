@@ -5,7 +5,6 @@ $(document).ready(function () {
         var html_code = "";
         $.getJSON('database/escolas/escolas.json', function (data) {
             html_code += '<option value="">' + id + '</option>';
-            console.log(data);
 
             $.each(data, function (key, value) {
                 if (id == 'Cidades' && local_id == null) {
@@ -15,7 +14,7 @@ $(document).ready(function () {
                     html_code += '<option value="' + value.bairro + '">' + value.bairro + '</option>';
                 }
                 else if (value.bairro == local_id) {
-                    html_code += '<option value="' + value.escola + '">' + value.escola + '</option>';
+                        html_code += '<option value="' + value.escola + '">' + value.escola + '</option>'
                 }
             });
 
