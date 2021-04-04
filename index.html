@@ -110,6 +110,16 @@
     </div>
     
     <script src="js/selecao-escolas.js"></script>
+    <script>
+        function validar(){
+            var Escolas = document.getElementById("Escolas");
+            if (Escolas.value == "") {
+            alert("Escola não selecionada");
+            Escolas.focus();
+            return;
+          }
+        }
+    </script>
 </body>
 
 </html>
