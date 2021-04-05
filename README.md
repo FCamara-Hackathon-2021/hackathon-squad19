@@ -6,7 +6,7 @@ Tabela de conteúdos
    * [O que é esse Hackathon?](#o-que-é-esse-hackathon?)
    * [Squads](#squads)
    * [Desafio](#desafio)
-   * [🛠 Tecnologias](#tecnologias)
+   * [Tecnologias](#tecnologias)
 <!--te-->
 
 ## O que é esse Hackathon?
