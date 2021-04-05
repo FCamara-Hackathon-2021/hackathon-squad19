@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--JS-->
+    <script>
+        function update() {
+            window.alert(
+                "Função em Desenvolvimento!"
+            )
+        }
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap-select.min.css" />
+
+    <!-- Bootstrap JavaScript and Ajax JQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+
+    <!-- //biblioteca alternativa à bootstrap-select -->
+    <!--
+    <link rel="stylesheet" href="css/select2.min.css"/>     
+    <script src="js/select2.min.js"></script>
+    -->
+
+    <title>Hackathon FCamara 2021 - Squad 19</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/logo.png" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Conheça</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+    </div>
+    
+    <!--Div go back-->
+    <div id="goback">
+        <div class="container">
+            <div class="row">
+                <div class="col justify-content-start d-none d-lg-block">
+                    <a href="index.html"><img src="imgs/goback.png" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Opções doação-->
+    <div id="opts2">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <h2>Materiais disponíveis para doação</h2>
+                </div>
+                <div class="d-flex justify-content-center ">
+                    <img src="imgs/whiteline.png" class="img-fluid" style="margin-top: 8px" />
+                </div>
+            </div>
+            <div class="d-flex justify-content-center" id="opts">
+                <div class="multi_select_box" id="buttons">
+                    <select name="produtos" class="multi_select w-100" id="Produtos" multiple
+                        data-selected-text-format="count > 3" data-live-search=true>
+                    </select>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center" id="spaceverified">
+                <div id="buttons">
+                    <div id="spacebtn">
+                        <a href="pag3.html">
+                            <button type="button" class="btn btn-primary">
+                                Selecionar Produtos
+                            </button>
+                        </a>
+                    </div>
+                    <a href="#">
+                        <button type="button" class="btn btn-outline-primary" onclick="update()" style="color: white">
+                            Cadastre materiais
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/selecao-material.js"></script>
+
+</body>
+
+</html>

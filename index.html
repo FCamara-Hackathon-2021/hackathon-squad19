@@ -1,14 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto FCamara - Squad 19</title>
-    <link rel="stylesheet" href="">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--JS-->
+    <script>
+        function update() {
+            window.alert(
+                "Função em Desenvolvimento!"
+            )
+        }
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Bootstrap JavaScript and JQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+
+    <title>Hackathon FCamara 2021 - Squad 19</title>
 </head>
+
 <body>
 
+    <!--HEADER-->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/logo.png" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Conheça</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+    </div>
+
+    <!--Opções doação-->
+    <div id="opts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <h2>Está precisando de <br /> materiais escolares?
+                        <br /><br />Gostaria de doar e<br />ajudar crianças a<br />terem um estudo<br />melhor?
+                    </h2>
+                    <br />
+                    <img src="imgs/location.png" class="img-fluid" />
+                    <br /><br />
+                    <div id="buttons">
+                        <select name="cidade" class="form-select" id="Cidades" style="width:130px; margin-right:15px;">
+                            <option value="">Cidades</option>
+                        </select>
+                        <select name="bairro" class="form-select" id="Bairros" style="width:130px; margin-right:15px;">
+                            <option value="">Bairros</option>
+                        </select>
+                        <select name="escola" class="form-select" id="Escolas" style="width:130px; margin-right:15px;">
+                            <option value="default">Escolas</option>
+                        </select>
+                    </div>
+                    <br />
+                    <div id="buttons">
+                        <div id="spacebtn">
+                                <button type="button" class="btn btn-primary" onclick="validar()">
+                                    <img src="imgs/caderno.png" class="formataimg">
+                                    Preciso de um kit
+                                </button>
+                        </div>
+                        <a href="#">
+                            <button type="button" class="btn btn-outline-primary" onclick="update()" style="color: white">
+                                <img src="imgs/doacao.png" class="formataimg">
+                                Quero doar
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-right align-self-center">
+                    <img src="imgs/meninacomlivros.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/selecao-escolas.js"></script>
+    
+    <script>
+        function validar() {
+            var escolas = document.getElementById("Escolas");
+            console.log(escolas);
+
+            if (escolas.value == "default") {
+                alert("Escola não selecionada");
+                escolas.focus();
+                return;
+            } 
+            else {
+                window.location.href = "/pag2.html";
+            }
+        }
+    </script>
 </body>
+
 </html>

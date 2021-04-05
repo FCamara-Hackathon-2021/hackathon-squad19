@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--JS-->
+    <script>
+        function update() {
+            window.alert(
+                "Função em Desenvolvimento!"
+            )
+        }
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Hackathon FCamara 2021 - Squad 19</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/logo.png" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Conheça</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+    </div>
+    <!--Div go back-->
+    <div id="goback">
+        <div class="container">
+            <div class="row">
+                <div class="col justify-content-start d-none d-lg-block">
+                    <a href="index.html"><img src="imgs/goback.png" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Opções-->
+    <div id="opts2">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <h2>Pedido realizado com sucesso!</h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="imgs/box.png" class="img-fluid" id="box" />
+                </div>
+                <div class="d-flex justify-content-center" id="spacebox">
+                    <h6>Seu kit está sendo separado.</h6>
+                </div> 
+                <div class="d-flex justify-content-center">
+                    <h6>Você deverá retirar na escola e data que serão enviados por e-mail.</h6>
+                </div>               
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

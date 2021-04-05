@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--JS-->
+    <script>
+        function update() {
+            window.alert(
+                "Função em Desenvolvimento!"
+            )
+        }
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Hackathon FCamara 2021 - Squad 19</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/logo.png" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Conheça</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="update()">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+    </div>
+    <!--Div go back-->
+    <div id="goback">
+        <div class="container">
+            <div class="row">
+                <div class="col justify-content-start d-none d-lg-block">
+                    <a href="pag2.html"><img src="imgs/goback.png" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Opções-->
+    <div id="opts2">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <h2>Produtos selecionados</h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="imgs/verificado.png" class="img-fluid" id="verified" />
+                </div>
+                <div class="d-flex justify-content-center" id="spaceverified">
+                    <div id="buttons">
+                        <div id="spacebtn2">
+                            <a href="pag2.html">
+                                <button type="button" class="btn btn-primary" id="buttomsize">
+                                    <img src="imgs/mais.png" class="formataimg">
+                                    Adicionar Produtos
+                                </button>
+                            </a>
+                        </div>
+                        <a href="pag4.html">
+                            <button type="button" class="btn btn-outline-primary" id="buttomsize" style="color: white">
+                                Fechar pedido
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
