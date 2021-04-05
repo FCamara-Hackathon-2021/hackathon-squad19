@@ -25,7 +25,7 @@ Os participantes são divididos em Squads (times). Esses Squads são formados at
 
 Criar uma aplicação, onde os pais irão cadastrar seus filhos que estudam em escolas estaduais e municipais, e também a lista de material escolar que precisam e não tem condições de comprar. Usuários avulsos e anônimos podem acessar, buscar a escola com base em alguns critérios de busca, visualizar a necessidade dos alunos carentes e fazer a doação dos itens que um determinado aluno esteja precisando.
 
-### 🛠 Tecnologias
+## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
