@@ -1,15 +1,18 @@
 # Squad 19 - Hackathon FCamara 2021 Season 1
 
-Tabela de conteúdos
-=================
-<!--ts-->
-   * [O que é esse Hackathon](#o-que-é-esse-hackathon)
-   * [Squads](#squads)
-   * [Desafio](#desafio)
-   * [Tecnologias](#tecnologias)
-<!--te-->
+## Renova: facilitando o reaproveitamento de materiais escolares
 
-## O que é esse Hackathon
+Estudo de caso para o Hackathon Season 1 do Grupo FCamara.
+
+<p align="center">
+ <a href="#o-que-é-esse-hackathon">O que é esse Hackathon?</a> •
+ <a href="#squads">Squads</a> • 
+ <a href="#o-desafio">O Desafio</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#licença">Licença</a>
+</p>
+
+## O que é esse Hackathon?
 
 O Hackathon do Programa de Formação da FCamara é a fase onde os participantes colocarão em prática toda a teoria que vem aprendendo. Iremos te dar um desafio, e seu objetivo será transformá-lo em uma solução. Ao final do Hackathon, os participantes sairão com um case/portfólio para poder divulgar, e de quebra, um emprego! =P
 
@@ -17,7 +20,7 @@ O Hackathon do Programa de Formação da FCamara é a fase onde os participantes
 
 Os participantes são divididos em Squads (times). Esses Squads são formados através de um sorteio. Essa é uma forma utilizada pela FCamara para dividir os projetos entre os participantes.
 
-## Desafio
+## O Desafio
 
 **Problemática:**
 
@@ -35,3 +38,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [jQuery](https://jquery.com/)
 - [Bootstrap-Select v1.14-dev](https://github.com/snapappointments/bootstrap-select)
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+## Licença
+
+Este projeto está sob a licença MIT. Consulte o [LICENSE](./LICENSE.md) para obter mais informações.
