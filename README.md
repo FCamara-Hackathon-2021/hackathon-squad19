@@ -3,21 +3,21 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [O que é esse Hackathon?](#o-que-e-esse-hackathon)
+   * [O que é esse Hackathon?](#o-que-é-esse-hackathon?)
    * [Squads](#squads)
    * [Desafio](#desafio)
-   * [Tecnologias](#tecnologias)
+   * [🛠 Tecnologias](#tecnologias)
 <!--te-->
 
-##O que é esse Hackathon?
+## O que é esse Hackathon?
 
 O Hackathon do Programa de Formação da FCamara é a fase onde os participantes colocarão em prática toda a teoria que vem aprendendo. Iremos te dar um desafio, e seu objetivo será transformá-lo em uma solução. Ao final do Hackathon, os participantes sairão com um case/portfólio para poder divulgar, e de quebra, um emprego! =P
 
-##Squads
+## Squads
 
 Os participantes são divididos em Squads (times). Esses Squads são formados através de um sorteio. Essa é uma forma utilizada pela FCamara para dividir os projetos entre os participantes.
 
-##Desafio
+## Desafio
 
 **Problemática:**
 
