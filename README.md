@@ -3,8 +3,8 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [O que é esse Hackathon?](#O-que-é-esse-Hackathon?)
-   * [Tecnologias](#Tecnologias)
+   * [O que é esse Hackathon?](#o-que-e-esse-hackathon)
+   * [Tecnologias](#tecnologias)
 <!--te-->
 
 ## O que é esse Hackathon?
