@@ -33,5 +33,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Bootstrap v5.0](https://getbootstrap.com/)
 - [jQuery](https://jquery.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
 - [Bootstrap-Select v1.14-dev](https://github.com/snapappointments/bootstrap-select)
+- [Visual Studio Code](https://code.visualstudio.com/)
