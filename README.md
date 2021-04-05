@@ -4,7 +4,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [O que é esse Hackathon?](#O-que-é-esse-Hackathon?)
-   * [Tecnologias](#tecnologias)
+   * [Tecnologias](#Tecnologias)
 <!--te-->
 
 ## O que é esse Hackathon?
