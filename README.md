@@ -1,16 +1,23 @@
 # Renova - Facilitando o reaproveitamento de materiais escolares
 
-
-
-Estudo de caso para o Hackathon 2021 Season 1, do Grupo FCamara.
-
 <p align="center">
- <a href="#o-que-é-esse-hackathon">O que é esse Hackathon?</a> •
+ <a href="#a-renova">A Renova</a> •
+ <a href="#o-que-é-esse-hackathon">O que é esse Hackathon</a> •
  <a href="#o-desafio">O Desafio</a> • 
  <a href="#squad">Squad</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#licença">Licença</a>
 </p>
+
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Renova_platform.jpeg" />
+</h1>
+
+## A Renova
+
+A Renova é uma aplicação web, baseada em um estudo de caso proposto pelo Grupo FCamara, no Hackathon 2021 Season 1.
+
+[Link para o Artigo sobre a Renova](https://medium.com/renova-utilizando-processos-de-ux-para-ajudar-pais/renova-facilitando-o-reaproveitamento-de-materiais-escolares-5804eb394cdc)
 
 ## O que é esse Hackathon?
 
@@ -32,7 +39,7 @@ Criar uma aplicação, onde os pais irão cadastrar seus filhos que estudam em e
 
 ## Demonstração da aplicação
 
-Para testar a aplicação, clique no link a seguir -> [Renova](https://fcamara-hackathon-2021.github.io/hackathon-squad19/)
+Para acessar a aplicação, clique neste link -> [Renova](https://fcamara-hackathon-2021.github.io/hackathon-squad19/)
 
 ### Features
 
@@ -51,6 +58,26 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [jQuery](https://jquery.com/)
 - [Bootstrap-Select v1.14-dev](https://github.com/snapappointments/bootstrap-select)
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+## Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina o [Git](https://git-scm.com)
+
+Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Acessando o Projeto Localmente
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/FCamara-Hackathon-2021/hackathon-squad19.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd hackathon-squad19
+
+# Abra o projeto pelo Visual Studio Code
+$ code .
+```
+
 
 ## Licença
 
