@@ -83,4 +83,4 @@ $ code .
 
 ## Licença
 
-Este projeto está sob a licença MIT. Consulte o [LICENSE](./LICENSE.md) para obter mais informações.
+Este projeto está sob a licença MIT. Consulte o [LICENSE.md](./LICENSE.md) para obter mais informações.
