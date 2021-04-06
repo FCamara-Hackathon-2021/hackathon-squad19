@@ -59,13 +59,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Bootstrap v5.0](https://getbootstrap.com/)
 - [jQuery](https://jquery.com/)
 - [Bootstrap-Select v1.14-dev](https://github.com/snapappointments/bootstrap-select)
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [JSON](https://www.json.org/json-en.html)
 
 ## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina o [Git](https://git-scm.com)
 
-Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Além disto, é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Acessando o Projeto Localmente
 
