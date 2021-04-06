@@ -3,9 +3,11 @@
 <p align="center">
  <a href="#a-renova">A Renova</a> •
  <a href="#o-que-é-esse-hackathon">O que é esse Hackathon</a> •
- <a href="#o-desafio">O Desafio</a> • 
  <a href="#squad">Squad</a> • 
+ <a href="#o-desafio">O Desafio</a> •
+ <a href="#demonstração-da-aplicação">Demonstração da aplicação</a> •
  <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#pré-requisitos">Pré-requisitos</a> • 
  <a href="#licença">Licença</a>
 </p>
 
@@ -37,7 +39,7 @@ O squad (time) deste projeto foi composto por 2 UX Designers e 2 desenvolvedores
 
 Criar uma aplicação, onde os pais irão cadastrar seus filhos que estudam em escolas estaduais e municipais, e também a lista de material escolar que precisam e não tem condições de comprar. Usuários avulsos e anônimos podem acessar, buscar a escola com base em alguns critérios de busca, visualizar a necessidade dos alunos carentes e fazer a doação dos itens que um determinado aluno esteja precisando.
 
-## Demonstração da aplicação
+## Demonstração da Aplicação
 
 Para acessar a aplicação, clique neste link -> [Renova](https://fcamara-hackathon-2021.github.io/hackathon-squad19/)
 
